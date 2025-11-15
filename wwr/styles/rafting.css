@@ -28,14 +28,14 @@ h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     opacity: 0.7;
 }
 nav,p,section,article{
     margin: 16px;
     padding: 10px;
 }
-.social-media a{
+.socialmedia a{
     text-decoration: none;
 }
 .hero{
@@ -64,7 +64,7 @@ h1 {
  header a{
     text-decoration: none;
 }
-.social-media img{
+.socialmedia img{
       width: 100px; 
       height: auto;
 }
