@@ -79,10 +79,11 @@ nav a {
 }
 .socialmedia img{
       width: 50px; 
-      height: auto;   
+      height: auto;
 }
 footer{
     border-top: 0.5px solid #000;
+
 }
 article{
     position: absolute;
@@ -117,11 +118,12 @@ header img{
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+    margin: 10px;
 }
 .adventure figcaption {
     text-align: center;
     font-weight: 300;
-    margin-top: 10px;
+    margin: 1.2px;
 }
 .history{
     display: flex;
