@@ -81,8 +81,10 @@ nav a {
       width: 50px; 
       height: auto;
 }
-footer{
+footer {
     border-top: 0.5px solid #000;
+     margin: 1rem auto 0;
+    font-size: 0.8em;
 
 }
 article{
@@ -144,3 +146,99 @@ header img{
 .right-text{
     text-align: right;
 }
+
+form{
+    width: 440px;
+    padding: 1rem;
+    margin: 0 auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+
+
+
+}
+
+label{
+    padding-right: 1rem;
+}
+input, textarea{
+    padding: 0.3rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 20px;
+    vertical-align: bottom;
+
+}
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .65rem;
+    font-size: 1.1rem;
+}
+footer p{
+    margin: 5px;
+    padding: 7px;  
+
+}
+.form-container{
+    padding: 20px;
+}
+
+textarea{
+    padding: 0.1rem;
+    font-size: 1.0rem;
+    width: 300px;
+}
+.map-container{
+    padding: 20px
+
+}
+.radio-label{
+    display: inline-block;
+    margin-right: 20px;
+}
+input[type="radio"]{
+    margin-right: 12px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 840px;
+}
+.address-container{
+    text-align: center;
+    padding: 20px;
+}
+.employee{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.employee figure {
+    margin: 0;
+}
+.employee img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+.employee figcaption {
+    text-align: center;
+    font-weight: 300;
+    margin: 1.2px;
+
+}
+
+
+
+
+
