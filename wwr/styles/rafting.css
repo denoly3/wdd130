@@ -261,7 +261,7 @@ input[type="radio"]{
     width: 190px;
     height: auto;
     object-fit: cover;
-     border-radius: 10px;
+    border-radius: 10px;
     margin: 10px;
     
 }
@@ -293,6 +293,24 @@ input[type="radio"]{
     text-align: left;
     margin: 10px;
     border: 1px;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2em;
+    place-items: center;
+}
+.grid-item{
+    background-color: #f7f7f7;
+    padding: 1em;
+}
+.grid-item img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 
