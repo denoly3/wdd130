@@ -1,7 +1,7 @@
 
 :root{
     --primary-color:#055a05; /* forest green */
-    --secondary-color: #f4a261; /* warm sand */
+   /* --secondary-color: #f4a261; /* warm sand */
     --accent1-color: #264653; /* dark slate blue */
     --accent2-color: #e9c46a; /* light golden yellow */
     --heading-font:  "Times New Roman","Georgia", serif;
@@ -17,7 +17,7 @@ header{
     color: var(--accent2-color);
     margin: 1rem ;
     display: grid;
-    grid-template-columns: 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
 }
@@ -82,16 +82,24 @@ nav a {
     font-weight: 600;
 }
 .socialmedia img{
-      width: 50px; 
-      height: auto;
+      width: 20px; 
+      height: 20px;
 }
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
     border-top: 0.5px solid #000;
      margin: 1rem auto 0;
     font-size: 0.8em;
 
 }
-article{
+.socialmedia{
+    display: flex;
+    gap: 10px;
+}
+.hero article{
     position: absolute;
     top: 290px;
     left: 10px;
@@ -102,9 +110,11 @@ article{
     background-color: var(--accent1-color);
     color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
-p{
+.hero p{
     text-align: justify;
 }
+
+
 header img{
     margin: 1rem;
     width: 100px;
@@ -241,6 +251,50 @@ input[type="radio"]{
     margin: 1.2px;
 
 }
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.trip-descriptions img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+     border-radius: 10px;
+    margin: 10px;
+    
+}
+.trip-descriptions article{
+    padding: 10px;
+    border: 1px solid rgb(0 0 0 / 0.1);;
+}
+.call-to-action a{
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.trip-table th, td{
+    border: 1px solid rgb(150 150 150);
+    padding: 8px 12px;
+    text-align: center;
+}
+.trip-table thead tr{
+    font-weight: 700;
+    background-color: #f0f0f0;
+}
+.trip-table table{
+    letter-spacing: 0.5px;
+    border: 2px solid rgb(140 140 140);
+     border-collapse: collapse;
+}
+.trip-table h2 {
+    text-align: left;
+    margin: 10px;
+    border: 1px;
+}
+
 
 
 
